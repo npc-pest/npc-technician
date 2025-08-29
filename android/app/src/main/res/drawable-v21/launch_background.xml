@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modify this file to customize your launch splash screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background gradient similar to your Flutter splash screen -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="270"
+                android:startColor="#000000"
+                android:centerColor="#333333"
+                android:endColor="#FFFFFF"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- NPC Logo -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/logo_npc" />
+        </item>
+</layer-list>
